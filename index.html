@@ -37,7 +37,12 @@
       <form id="form">
         <div class="form-control">
           <label for="text">Text</label>
-          <input type="text" id="text" placeholder="Enter text..." />
+          <input
+            type="text"
+            id="text"
+            placeholder="Enter text..."
+            autocomplete="off"
+          />
         </div>
 
         <div class="form-control">
@@ -45,7 +50,8 @@
             >Amount <br />
             (negative for expense | positive for income)</label
           >
-          <input type="number" id="amount" placeholder="Enter amount..." />
+          <input type="number" id="amount" placeholder="Enter amount..."
+          autocomplete="off"
         </div>
         <buttton type="submit" class="btn">Add Transaction</buttton>
       </form>
